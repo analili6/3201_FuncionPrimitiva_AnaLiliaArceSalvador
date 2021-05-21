@@ -1,0 +1,18 @@
+% Título: funcio primitiva 
+% Descripción: Script para calcular la funcion primitiva de una integral 
+% Autor: Ana Lilia Arce Salvador (analili6) al5853542@gmail.com
+% Fecha: 20/05/21
+% Sesión: 4
+%ESPECIFICACIONES :Es necesario importar el paquete symbolic con 
+%pkg load symbolic  para su correcto funcionamiento 
+
+
+clc
+clear 
+%declaracion de la variable simbolica 
+syms x
+%funcion 
+F=input('INDICA LA FUNCION: ');
+
+%calcular la integral
+i=int (F)
