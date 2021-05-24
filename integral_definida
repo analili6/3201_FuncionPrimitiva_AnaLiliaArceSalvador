@@ -8,23 +8,19 @@
 %pkg load symbolic  para su correcto funcionamiento 
 
 clc
-clear
-%declaracion de la variable simbolica 
-syms x
-%FUNCION f (x) = x+2
-F= x+2
-% Rango
- x = -4: 0.1: 2; 
-% Valor de la función 
- y= x+2;
-% Dibujar x, y
- plot(x, y);
-% Titulo
- title("f (x) = x+2 ");
-% Etiqueta para x
- xlabel ("x");
-% Etiqueta para y
- ylabel ("y");
- 
-%calcular la integral
-i=int (F)
+claro
+% declaracion de la variable simbolica 
+syms x;
+% funcion 
+fx = input ("Ingrese la función:")
+funcion = en línea (char (fx));
+% establecer los limites 
+a = input ("Desde limite inferior")
+b = input ("Hasta limite superior:")
+resultado = (b. ^ 2/2) - (a. ^ 2/2)
+
+% rango de la función 
+x = 1: 0,2: 4;
+f = x;
+trama (f, x)
+barra (f, x, "m")
