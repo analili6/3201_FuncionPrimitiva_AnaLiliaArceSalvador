@@ -8,11 +8,19 @@
 
 
 clc
-clear 
+claro
 %declaracion de la variable simbolica 
-syms x
-%funcion 
-F=input('INDICA LA FUNCION: ');
+syms x;
+% funcion 
+fx = input ("Ingrese la función:")
+funcion = en línea (char (fx));
+%establecer los limites 
+a = input ("Desde limite inferior")
+b = input ("Hasta limite superior:")
+resultado = (b. ^ 2/2) - (a. ^ 2/2)
 
-%calcular la integral
-i=int (F)
+%rango de la funcion 
+x = 1: 0,2: 4;
+f = x;
+trama (f, x)
+barra (f, x, "m")
