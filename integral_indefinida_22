@@ -1,0 +1,27 @@
+ 
+% Título: funcio primitiva 
+% Descripción: Script para calcular la funcion primitiva de una integral definida 
+% Autor: Ana Lilia Arce Salvador (analili6) al5853542@gmail.com
+% Fecha: 20/05/21
+% Sesión: 4
+%ESPECIFICACIONES :Es necesario importar el paquete symbolic con 
+%pkg load symbolic  para su correcto funcionamiento
+
+clc
+claro
+%declaracion de la variable simbolica 
+syms x;
+%funcion tipo  = 2 * x ^ 2-3 * x 
+fx = input ("Ingrese la función:")
+funcion = en línea (char (fx))
+%establecer los limites 
+a = input ("Desde limite inferior")
+b = input ("Hasta limite superior:")
+%operaciones 
+resultado = 2 * (b ^ 3) / 3-3 * (a ^ 2) / 2 - 2 * (- b ^ 3) / 3-3 * (- a ^ 2) / 2
+
+% rango 
+x = -3: 0,2: 3;
+f = x;
+trama (f, x)
+barra (f, x, "m")
